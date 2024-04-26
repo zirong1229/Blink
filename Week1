@@ -1,0 +1,12 @@
+int ledPin = 13;             
+
+void setup() {
+  pinMode(ledPin, OUTPUT); //將 pin 13設定輸出模式
+}
+
+void loop() {
+  digitalWrite(ledPin, HIGH);
+  delay(1000);       //延遲 1 秒        
+  digitalWrite(ledPin, LOW); 
+  delay(1000);       //延遲 1 秒 
+}
